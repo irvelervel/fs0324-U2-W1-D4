@@ -62,10 +62,9 @@ SENZA hover sarà la transizione applicata IN USCITA */
 
 .example-4 {
   background-color: lightseagreen;
-  transition: translateX 500ms linear 0s;
+  transition: all 3s ease-in 0s;
 }
 
 .example-4:hover {
   transform: rotate(5turn) scale(1.3) translateX(300px);
-  transition: all 3s ease-in 0s;
 }
